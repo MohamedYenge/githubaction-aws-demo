@@ -1,6 +1,6 @@
 install:
 	pip install --upgrade pip &&\
-		pip install -r requirements-aws.txt
+		pip install -r requirements-gcp.txt
 
 test:
 	python -m pytest -vv test_hello.py
